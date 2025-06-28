@@ -1,13 +1,8 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"], // or other paths where your HTML lives
+  content: [],
   theme: {
-    extend: {
-      fontFamily: {
-        poppins: ['"Poppins"', "sans-serif"],
-        ebgaramond: ['"EB Garamond"', "serif"],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
